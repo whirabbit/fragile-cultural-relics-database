@@ -3,13 +3,6 @@ server:
 spring:
   application:
     name: fragile-cultural-relics-database
-  data:
-    mongodb:
-#      username: root
-#      password: 123456789
-#      uri: mongodb://root:123456789@159.75.23.242/?authSource=admin
-      uri: mongodb://root:root@101.200.61.174/?authSource=admin
-      database: fragile_cultural_relics
 logging:
   file:
     path: /usr/springboot/fragile-cultural-relics-database/log/
